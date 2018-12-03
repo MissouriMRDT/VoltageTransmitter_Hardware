@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Voltage-Transmitter-schematic-rescue)(type Legacy)(uri "${KIPRJMOD}/Voltage Transmitter-schematic-rescue.lib")(options "")(descr ""))
+  (lib (name VoltageTransmitter_Hardware)(type Legacy)(uri C:/Users/bohnj/Documents/GitHub/VoltageTransmitter_Hardware/Libraries/Device/VoltageTransmitter_Hardware.lib)(options "")(descr ""))
 )
