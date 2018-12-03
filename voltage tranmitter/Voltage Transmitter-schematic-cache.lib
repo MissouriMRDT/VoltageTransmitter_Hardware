@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Device_C
+# Device:C
 #
-DEF Device_C C 0 10 N Y 1 F N
+DEF Device:C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device_C" 25 -100 50 H V L CNN
+F1 "Device:C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -19,11 +19,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_D_Schottky
+# Device:D_Schottky
 #
-DEF Device_D_Schottky D 0 40 N N 1 F N
+DEF Device:D_Schottky D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device_D_Schottky" 0 -100 50 H V C CNN
+F1 "Device:D_Schottky" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -41,11 +41,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_L
+# Device:L
 #
-DEF Device_L L 0 40 N N 1 F N
+DEF Device:L L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "Device_L" 75 0 50 V V C CNN
+F1 "Device:L" 75 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -64,11 +64,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_R_Small
+# Device:R_Small
 #
-DEF Device_R_Small R 0 10 N N 1 F N
+DEF Device:R_Small R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "Device_R_Small" 30 -40 50 H V L CNN
+F1 "Device:R_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -81,11 +81,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Voltage-Transmitter-schematic-rescue_AP1059-MRDT_ICs-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue
+# Voltage-Transmitter-schematic-rescue:AP1059-MRDT_ICs-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue
 #
-DEF Voltage-Transmitter-schematic-rescue_AP1059-MRDT_ICs-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue U 0 40 Y Y 1 F N
+DEF Voltage-Transmitter-schematic-rescue:AP1059-MRDT_ICs-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue U 0 40 Y Y 1 F N
 F0 "U" 50 -50 60 H V C CNN
-F1 "Voltage-Transmitter-schematic-rescue_AP1059-MRDT_ICs-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue" 200 450 60 H V C CNN
+F1 "Voltage-Transmitter-schematic-rescue:AP1059-MRDT_ICs-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue" 200 450 60 H V C CNN
 F2 "" -250 -100 60 H I C CNN
 F3 "" -250 -100 60 H I C CNN
 DRAW
@@ -101,11 +101,11 @@ X GND 8 650 350 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Voltage-Transmitter-schematic-rescue_AndersonPP-MRDT_Connectors
+# Voltage-Transmitter-schematic-rescue:AndersonPP-MRDT_Connectors
 #
-DEF Voltage-Transmitter-schematic-rescue_AndersonPP-MRDT_Connectors Conn 0 0 N Y 4 L N
+DEF Voltage-Transmitter-schematic-rescue:AndersonPP-MRDT_Connectors Conn 0 0 N Y 4 L N
 F0 "Conn" 150 -50 60 H V C CNN
-F1 "Voltage-Transmitter-schematic-rescue_AndersonPP-MRDT_Connectors" 100 250 60 H V C CNN
+F1 "Voltage-Transmitter-schematic-rescue:AndersonPP-MRDT_Connectors" 100 250 60 H V C CNN
 F2 "" -150 -550 60 H I C CNN
 F3 "" -150 -550 60 H I C CNN
 DRAW
@@ -120,11 +120,11 @@ X PV+ 4 400 100 200 L 50 39 4 1 I
 ENDDRAW
 ENDDEF
 #
-# Voltage-Transmitter-schematic-rescue_ESP8266_MCU-New_libraries-Voltage-Transmitter-schematic-rescue
+# Voltage-Transmitter-schematic-rescue:ESP8266_MCU-New_libraries-Voltage-Transmitter-schematic-rescue
 #
-DEF Voltage-Transmitter-schematic-rescue_ESP8266_MCU-New_libraries-Voltage-Transmitter-schematic-rescue U 0 40 Y Y 1 F N
+DEF Voltage-Transmitter-schematic-rescue:ESP8266_MCU-New_libraries-Voltage-Transmitter-schematic-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 0 50 H V C CNN
-F1 "Voltage-Transmitter-schematic-rescue_ESP8266_MCU-New_libraries-Voltage-Transmitter-schematic-rescue" 50 100 50 H V C CNN
+F1 "Voltage-Transmitter-schematic-rescue:ESP8266_MCU-New_libraries-Voltage-Transmitter-schematic-rescue" 50 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -162,11 +162,11 @@ X CLK 9 -100 -1000 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Voltage-Transmitter-schematic-rescue_Molex_SL_02-MRDT_Connectors-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue
+# Voltage-Transmitter-schematic-rescue:Molex_SL_02-MRDT_Connectors-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue
 #
-DEF Voltage-Transmitter-schematic-rescue_Molex_SL_02-MRDT_Connectors-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue Conn 0 40 Y Y 1 F N
+DEF Voltage-Transmitter-schematic-rescue:Molex_SL_02-MRDT_Connectors-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue Conn 0 40 Y Y 1 F N
 F0 "Conn" 150 -50 60 H V C CNN
-F1 "Voltage-Transmitter-schematic-rescue_Molex_SL_02-MRDT_Connectors-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue" 50 250 60 H V C CNN
+F1 "Voltage-Transmitter-schematic-rescue:Molex_SL_02-MRDT_Connectors-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue" 50 250 60 H V C CNN
 F2 "" 0 -100 60 H I C CNN
 F3 "" 0 -100 60 H I C CNN
 DRAW
@@ -176,11 +176,11 @@ X ~ 2 -200 50 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# power_+3.3V
+# power:+3.3V
 #
-DEF power_+3.3V #PWR 0 0 Y Y 1 F P
+DEF power:+3.3V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+3.3V" 0 140 50 H V C CNN
+F1 "power:+3.3V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS +3.3V
@@ -192,11 +192,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power_GND
+# power:GND
 #
-DEF power_GND #PWR 0 0 Y Y 1 F P
+DEF power:GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
+F1 "power:GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

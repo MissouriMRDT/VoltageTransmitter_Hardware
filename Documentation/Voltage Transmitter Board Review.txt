@@ -1,0 +1,43 @@
+Voltage Transmitter Board Review
+File Managment
+	Rename to VoltageTransmitter_Hardware
+	Move library folder to root
+	pacakges folder, and symbols folder
+	make pacage library
+	make a .pretty folder and put the esp8266 pacakage inside this
+	
+Schematic
+	power flags pointing up
+	label the nets
+	move andersons and rename to Conn1A and Conn 1B
+	Delete the nub wire on the tiva
+	Rename flags Din to V_sense
+	move the flag to A0 on esp8266
+	put power flags on all GND and 3.3V on esp8266
+	3v3 to +3v3, Vin to +5v
+	place Anchor point to the bottom left corner
+	U? TO Bottom right hand corner
+	rename part to esp8266_mcu
+	fill the background
+	Increase the input lines 5.08 mm
+	Power Switch on line 1 closer to the SL-02 by the ap1509
+	The ESP8266 needs to become ESP8266-12
+	Inicator : 
+		LED for Power
+		Software Flag LED(2)
+			Network connect_IND LED
+			Because we can
+			
+		
+PCB Board-Package
+	make it match the datasheet
+	Anchor point again
+	add holes to the footprint
+	the whole border
+	the general location of the sp
+	a rectangle for the USB port
+	Add F.fab text
+	Put SL-02 and ap-1509 on top of the pcb and the ESP8266 on bottom
+	Silkscreens
+	add text that is silkscreen 3.3 above the ap1509
+	

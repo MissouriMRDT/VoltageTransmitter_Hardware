@@ -68,17 +68,6 @@ Text Label 2200 3150 2    50   ~ 0
 V_Sense
 Text Label 1700 3350 0    50   ~ 0
 PV_In
-$Comp
-L Voltage-Transmitter-schematic-rescue:ESP8266_MCU-New_libraries-Voltage-Transmitter-schematic-rescue U2
-U 1 1 5BFDA2B2
-P 3700 1300
-F 0 "U2" H 3975 1325 50  0000 C CNN
-F 1 "ESP8266_MCU" H 3975 1234 50  0000 C CNN
-F 2 "New Library:ESP_8266 NODEMCU" H 3700 1300 50  0001 C CNN
-F 3 "" H 3700 1300 50  0001 C CNN
-	1    3700 1300
-	1    0    0    -1  
-$EndComp
 Text GLabel 3600 2600 0    50   Input ~ 0
 Din
 $Comp
@@ -254,8 +243,6 @@ Wire Notes Line
 Wire Notes Line
 	3090 470  470  470 
 Wire Notes Line
-	3090 4060 470  4060
-Wire Notes Line
 	470  470  470  4060
 Wire Notes Line
 	3090 470  3090 4060
@@ -289,13 +276,6 @@ Wire Wire Line
 	3500 2500 3600 2500
 Wire Wire Line
 	3300 2400 3300 2625
-Wire Wire Line
-	3300 2400 3600 2400
-Connection ~ 3600 2400
-Wire Wire Line
-	3600 2400 3625 2400
-Wire Notes Line
-	3100 3175 4875 3175
 Wire Notes Line
 	4875 3175 4875 475 
 Wire Notes Line
@@ -306,11 +286,28 @@ $Comp
 L Voltage-Transmitter-schematic-rescue:AndersonPP-MRDT_Connectors Conn3
 U 2 1 5C01FE7F
 P 1250 3300
-F 0 "Conn3" H 1456 3687 60  0000 C CNN
-F 1 "AndersonPP-MRDT_Connectors" H 1456 3581 60  0000 C CNN
+F 0 "Conn3" H 850 3700 60  0000 C CNN
+F 1 "AndersonPP-MRDT_Connectors" H 1300 3800 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_1_Horisontal" H 1100 2750 60  0001 C CNN
 F 3 "" H 1100 2750 60  0001 C CNN
 	2    1250 3300
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	4876 3174 4876 4060
+Wire Notes Line
+	470  4060 4876 4060
+$Comp
+L Voltage-Transmitter-schematic-rescue:ESP8266_MCU-New_libraries-Voltage-Transmitter-schematic-rescue U2
+U 1 1 5BFDA2B2
+P 3700 1300
+F 0 "U2" H 3975 1325 50  0000 C CNN
+F 1 "ESP8266_MCU" H 3975 1234 50  0000 C CNN
+F 2 "New Library:ESP_8266 NODEMCU" H 3700 1300 50  0001 C CNN
+F 3 "" H 3700 1300 50  0001 C CNN
+	1    3700 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 2400 3600 2400
 $EndSCHEMATC
