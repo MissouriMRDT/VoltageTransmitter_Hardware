@@ -22,7 +22,7 @@ Schematic
 	Increase the input lines 5.08 mm
 	Power Switch on line 1 closer to the SL-02 by the ap1509
 	The ESP8266 needs to become ESP8266-12
-	Inicator : 
+	Indicator : 
 		LED for Power
 		Software Flag LED(2)
 			Network connect_IND LED
