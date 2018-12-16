@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Voltage Transmitter-schematic-cache
+LIBS:VoltageTransmitter_Hardware-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Voltage-Transmitter-schematic-rescue:Molex_SL_02-MRDT_Connectors-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue Conn2
+L VoltageTransmitter_Hardware-rescue:Molex_SL_02-MRDT_Connectors-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue Conn2
 U 1 1 5BCBD3EB
 P 1250 1250
 F 0 "Conn2" H 1300 1100 60  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 1250 1150 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Voltage-Transmitter-schematic-rescue:AP1059-MRDT_ICs-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue U1
+L VoltageTransmitter_Hardware-rescue:AP1059-MRDT_ICs-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue U1
 U 1 1 5BCBD4B5
 P 2200 1750
 F 0 "U1" H 2450 2400 60  0000 C CNN
@@ -69,7 +69,7 @@ V_Sense
 Text Label 1700 3350 0    50   ~ 0
 PV_In
 $Comp
-L Voltage-Transmitter-schematic-rescue:ESP8266_MCU-New_libraries-Voltage-Transmitter-schematic-rescue U2
+L VoltageTransmitter_Hardware-rescue:ESP8266_MCU-New_libraries-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue U2
 U 1 1 5BFDA2B2
 P 3700 1300
 F 0 "U2" H 3975 1325 50  0000 C CNN
@@ -82,11 +82,11 @@ $EndComp
 Text GLabel 3600 2600 0    50   Input ~ 0
 Din
 $Comp
-L Voltage-Transmitter-schematic-rescue:AndersonPP-MRDT_Connectors Conn1
+L VoltageTransmitter_Hardware-rescue:AndersonPP-MRDT_Connectors-Voltage-Transmitter-schematic-rescue Conn1
 U 1 1 5BFDAEAB
 P 1250 3500
 F 0 "Conn1" H 1456 3887 60  0000 C CNN
-F 1 "AndersonPP" H 1456 3781 60  0000 C CNN
+F 1 "AndersonPP-MRDT_Connectors" H 1456 3781 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 1100 2950 60  0001 C CNN
 F 3 "" H 1100 2950 60  0001 C CNN
 	1    1250 3500
@@ -303,12 +303,12 @@ Wire Notes Line
 Text Notes 3275 775  0    118  ~ 24
 ESP8266\n
 $Comp
-L Voltage-Transmitter-schematic-rescue:AndersonPP-MRDT_Connectors Conn3
+L VoltageTransmitter_Hardware-rescue:AndersonPP-MRDT_Connectors-Voltage-Transmitter-schematic-rescue Conn1
 U 2 1 5C01FE7F
 P 1250 3300
-F 0 "Conn3" H 1456 3687 60  0000 C CNN
+F 0 "Conn1" H 1456 3687 60  0000 C CNN
 F 1 "AndersonPP-MRDT_Connectors" H 1456 3581 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horisontal" H 1100 2750 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 1100 2750 60  0001 C CNN
 F 3 "" H 1100 2750 60  0001 C CNN
 	2    1250 3300
 	1    0    0    -1  

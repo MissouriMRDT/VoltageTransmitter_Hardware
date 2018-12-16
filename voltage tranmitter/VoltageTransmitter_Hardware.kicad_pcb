@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.762)
+    (last_trace_width 0.25)
     (user_trace_width 0.381)
     (user_trace_width 0.762)
     (trace_clearance 0.2)
@@ -60,8 +60,9 @@
     (pad_size 1.5 1.5)
     (pad_drill 0.6)
     (pad_to_mask_clearance 0)
+    (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -124,7 +125,7 @@
   (net 30 "Net-(U2-Pad28)")
   (net 31 "Net-(U2-Pad29)")
   (net 32 "Net-(U2-Pad30)")
-  (net 33 "Net-(Conn3-Pad2)")
+  (net 33 "Net-(Conn1-Pad2)")
 
   (net_class Default "This is the default net class."
     (clearance 0.2)
@@ -137,7 +138,7 @@
     (add_net Din)
     (add_net GND)
     (add_net "Net-(C1-Pad1)")
-    (add_net "Net-(Conn3-Pad2)")
+    (add_net "Net-(Conn1-Pad2)")
     (add_net "Net-(D1-Pad1)")
     (add_net "Net-(U2-Pad1)")
     (add_net "Net-(U2-Pad13)")
@@ -246,7 +247,7 @@
     (fp_text reference Conn1 (at -1.8796 0.762 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value AndersonPP (at -12.8651 -16.764 180) (layer F.Fab)
+    (fp_text value AndersonPP-MRDT_Connectors (at -12.8651 -16.764 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_arc (start -14.5796 0) (end -14.5796 -1.1176) (angle 90) (layer F.SilkS) (width 0.15))
@@ -275,7 +276,8 @@
     (fp_line (start -12.2936 -15.748) (end 0 -15.748) (layer F.SilkS) (width 0.15))
     (pad 1 thru_hole circle (at 3.5814 -4.063 180) (size 5.08 5.08) (drill 4.06) (layers *.Cu *.Mask F.Paste)
       (net 2 GND))
-    (pad 2 thru_hole circle (at 3.5814 -12.064 180) (size 5.08 5.08) (drill 4.06) (layers *.Cu *.Mask F.Paste))
+    (pad 2 thru_hole circle (at 3.5814 -12.064 180) (size 5.08 5.08) (drill 4.06) (layers *.Cu *.Mask F.Paste)
+      (net 33 "Net-(Conn1-Pad2)"))
   )
 
   (module MRDT_Connectors:MOLEX_SL_02_Horizontal (layer F.Cu) (tedit 5AB8003E) (tstamp 5C26D018)
@@ -402,7 +404,7 @@
       (effects (font (size 0.4 0.4) (thickness 0.06)))
     )
     (pad 1 smd roundrect (at -0.875 0 180) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
-      (net 33 "Net-(Conn3-Pad2)"))
+      (net 33 "Net-(Conn1-Pad2)"))
     (pad 2 smd roundrect (at 0.875 0 180) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 5 Din))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl

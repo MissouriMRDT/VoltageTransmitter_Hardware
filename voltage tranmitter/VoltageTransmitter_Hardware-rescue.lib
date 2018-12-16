@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# AP1059-MRDT_ICs-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue
+# AP1059-MRDT_ICs-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue
 #
-DEF AP1059-MRDT_ICs-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue U 0 40 Y Y 1 F N
+DEF AP1059-MRDT_ICs-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue U 0 40 Y Y 1 F N
 F0 "U" 50 -50 60 H V C CNN
-F1 "AP1059-MRDT_ICs-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue" 200 450 60 H V C CNN
+F1 "AP1059-MRDT_ICs-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue" 200 450 60 H V C CNN
 F2 "" -250 -100 60 H I C CNN
 F3 "" -250 -100 60 H I C CNN
 DRAW
@@ -21,11 +21,11 @@ X GND 8 650 350 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# AndersonPP-MRDT_Connectors
+# AndersonPP-MRDT_Connectors-Voltage-Transmitter-schematic-rescue
 #
-DEF AndersonPP-MRDT_Connectors Conn 0 0 N Y 4 L N
+DEF AndersonPP-MRDT_Connectors-Voltage-Transmitter-schematic-rescue Conn 0 0 N Y 4 L N
 F0 "Conn" 150 -50 60 H V C CNN
-F1 "AndersonPP-MRDT_Connectors" 100 250 60 H V C CNN
+F1 "AndersonPP-MRDT_Connectors-Voltage-Transmitter-schematic-rescue" 100 250 60 H V C CNN
 F2 "" -150 -550 60 H I C CNN
 F3 "" -150 -550 60 H I C CNN
 DRAW
@@ -40,11 +40,11 @@ X PV+ 4 400 100 200 L 50 39 4 1 I
 ENDDRAW
 ENDDEF
 #
-# ESP8266_MCU-New_libraries-Voltage-Transmitter-schematic-rescue
+# ESP8266_MCU-New_libraries-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue
 #
-DEF ESP8266_MCU-New_libraries-Voltage-Transmitter-schematic-rescue U 0 40 Y Y 1 F N
+DEF ESP8266_MCU-New_libraries-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 0 50 H V C CNN
-F1 "ESP8266_MCU-New_libraries-Voltage-Transmitter-schematic-rescue" 50 100 50 H V C CNN
+F1 "ESP8266_MCU-New_libraries-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue" 50 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -82,11 +82,11 @@ X CLK 9 -100 -1000 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Molex_SL_02-MRDT_Connectors-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue
+# Molex_SL_02-MRDT_Connectors-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue
 #
-DEF Molex_SL_02-MRDT_Connectors-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue Conn 0 40 Y Y 1 F N
+DEF Molex_SL_02-MRDT_Connectors-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue Conn 0 40 Y Y 1 F N
 F0 "Conn" 150 -50 60 H V C CNN
-F1 "Molex_SL_02-MRDT_Connectors-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue" 50 250 60 H V C CNN
+F1 "Molex_SL_02-MRDT_Connectors-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue" 50 250 60 H V C CNN
 F2 "" 0 -100 60 H I C CNN
 F3 "" 0 -100 60 H I C CNN
 DRAW
