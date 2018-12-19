@@ -1,0 +1,8 @@
+"Id","Designator","Package","Quantity","Designation","Supplier and ref",
+1,"U2","ESP_8266 NODEMCU",1,"ESP8266_MCU",,,
+2,"C1,C2","C_0603_1608Metric_Pad1.05x0.95mm_HandSolder",2,"10uF",,,
+3,"Conn1","Anderson_2_Horisontal_Side_by_Side",1,"AndersonPP-MRDT_Connectors",,,
+4,"Conn2","MOLEX_SL_02_Horizontal",1,"Molex_SL_02",,,
+5,"R1","R_0603_1608Metric_Pad1.05x0.95mm_HandSolder",1,"100K",,,
+6,"R2","R_0603_1608Metric_Pad1.05x0.95mm_HandSolder",1,"11K",,,
+7,"U1","OKI_Horizontal",1,"OKI",,,
