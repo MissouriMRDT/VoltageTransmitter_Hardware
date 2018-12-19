@@ -53,10 +53,6 @@ Text Notes 500  2250 0    118  ~ 24
 Voltage Divider\n
 Text Notes 500  650  0    118  ~ 24
 Voltage Regulator\n
-Text Label 2250 2600 2    50   ~ 0
-V_Sense
-Text Label 1950 2700 0    50   ~ 0
-PV_In
 $Comp
 L VoltageTransmitter_Hardware-rescue:ESP8266_MCU-New_libraries-Voltage-Transmitter-schematic-rescue-Voltage-Transmitter-schematic-rescue U2
 U 1 1 5BFDA2B2
@@ -83,8 +79,6 @@ F 3 "" H 1100 2350 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	1650 2600 1700 2600
-Wire Wire Line
-	1900 2600 1950 2600
 Wire Wire Line
 	1950 2700 1950 2600
 $Comp
@@ -120,7 +114,6 @@ F 3 "" H 2650 1150 50  0001 C CNN
 	1    2650 1150
 	1    0    0    -1  
 $EndComp
-Connection ~ 1950 2600
 Wire Wire Line
 	1650 3000 1950 3000
 Wire Wire Line
@@ -130,8 +123,6 @@ Wire Wire Line
 	1950 3000 2050 3000
 Text GLabel 2300 2600 2    50   Output ~ 0
 Din
-Wire Wire Line
-	1950 2600 2300 2600
 $Comp
 L power:GND #PWR0104
 U 1 1 5C02C0E5
@@ -248,4 +239,22 @@ Wire Notes Line
 Wire Wire Line
 	2650 1150 2650 1200
 Connection ~ 2650 1200
+Connection ~ 1950 2600
+Wire Wire Line
+	1950 2600 2300 2600
+Wire Wire Line
+	1900 2600 1950 2600
+Text Notes 850  1550 0    50   ~ 0
++8.2 V in
+$Comp
+L power:GND #PWR0106
+U 1 1 5C1A8175
+P 2150 1500
+F 0 "#PWR0106" H 2150 1250 50  0001 C CNN
+F 1 "GND" H 2155 1327 50  0000 C CNN
+F 2 "" H 2150 1500 50  0001 C CNN
+F 3 "" H 2150 1500 50  0001 C CNN
+	1    2150 1500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
