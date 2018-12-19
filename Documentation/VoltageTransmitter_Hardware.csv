@@ -1,8 +1,10 @@
-"Id","Designator","Package","Quantity","Designation","Supplier and ref",
-1,"U2","ESP_8266 NODEMCU",1,"ESP8266_MCU",,,
-2,"C1,C2","C_0603_1608Metric_Pad1.05x0.95mm_HandSolder",2,"10uF",,,
-3,"Conn1","Anderson_2_Horisontal_Side_by_Side",1,"AndersonPP-MRDT_Connectors",,,
-4,"Conn2","MOLEX_SL_02_Horizontal",1,"Molex_SL_02",,,
-5,"R1","R_0603_1608Metric_Pad1.05x0.95mm_HandSolder",1,"100K",,,
-6,"R2","R_0603_1608Metric_Pad1.05x0.95mm_HandSolder",1,"11K",,,
-7,"U1","OKI_Horizontal",1,"OKI",,,
+Id,Designator,Package,,Package  Designation,Item Name,Part Number,,,Vendor,Quantity,Cost Per Item,,,URL
+1,U2,ESP_8266 NODEMCU,,ESP8266_MCU,NodeMCU ESP8266 Development Board with CP2102,,,,,1,,,,
+2,"C1,C2",C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,10uF,CAP CER 10UF 6.3V X5R 0603,1276-1119-1-ND ,,,DigiKey,2,0.15,,,https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10A106MQ8NNNC/1276-1119-1-ND/3889205
+3,Conn1,Anderson_2_Horisontal_Side_by_Side,,AndersonPP-MRDT_Connectors,PP15 Loose Piece 15 Amp Powerpole Contact 1332,1332,,,Powerwerx,2,0.16,,,https://powerwerx.com/anderson-1332-powerpole-contact-pp15
+4,Conn2,Anderson_2_Horisontal_Side_by_Side,,AndersonPP-MRDT_Connectors,PP15/30/45 Loose Piece Powerpole Colored Housing,1327,,,Powerwerx,1,0.37,,,https://powerwerx.com/anderson-powerpole-colored-housings
+5,Conn3,Anderson_2_Horisontal_Side_by_Side,,AndersonPP-MRDT_Connectors,PP15/30/45 Loose Piece Powerpole Colored Housing,1327G6,,,Powerwerx,1,0.37,,,https://powerwerx.com/anderson-powerpole-colored-housings
+6,Conn2,MOLEX_SL_02_Horizontal,,Molex_SL_02,CONN HEADER 2POS .100 R/A GOLD,WM4900-ND,,,DigiKey,1,0.72,,,https://www.digikey.com/products/en?keywords=WM4900-ND
+7,R1,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,100K,RES SMD 100K OHM 1% 1/20W 0201, 311-100KMCT-ND,,,DigiKey,1,0.1,,,https://www.digikey.com/product-detail/en/yageo/RC0201FR-07100KL/311-100KMCT-ND/1948965
+8,R2,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,11K, RES SMD 11K OHM 0.1% 1/10W 0603,P11KDBCT-ND,,,DigiKey,1,0.35,,,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB113V/P11KDBCT-ND/1466077
+9,U1,OKI_Horizontal,,OKI, DC DC CONVERTER 3.3V 5W,811-3014-ND,,,DigiKey,1,4.54,,,https://www.digikey.com/product-detail/en/murata-power-solutions-inc/OKI-78SR-3.3-1.5-W36H-C/811-3014-ND/4878851

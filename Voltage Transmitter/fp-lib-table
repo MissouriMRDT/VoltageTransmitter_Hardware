@@ -10,4 +10,5 @@
   (lib (name MRDT_Silkscreens)(type KiCad)(uri C:/MRDT_KiCAD_Libraries-2019R1/Package/MRDT_Silkscreens.pretty)(options "")(descr ""))
   (lib (name MRDT_Switches)(type KiCad)(uri C:/MRDT_KiCAD_Libraries-2019R1/Package/MRDT_Switches.pretty)(options "")(descr ""))
   (lib (name VoltageTransmitter_Hardware)(type KiCad)(uri C:/Users/bohnj/Documents/GitHub/VoltageTransmitter_Hardware/Libraries/Packages/VoltageTransmitter_Hardware.pretty)(options "")(descr ""))
+  (lib (name Voltage_Transmitter_Hardware)(type KiCad)(uri "C:/Users/austi/OneDrive/Desktop/Mars Rover/SRA Instruments/VoltageTransmitter_Hardware/Libraries/Voltage_Transmitter_Hardware.pretty")(options "")(descr ""))
 )
